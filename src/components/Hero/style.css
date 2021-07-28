@@ -1,0 +1,54 @@
+
+section {
+    background-color:rgb(62, 63, 63);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width :80%;
+    Margin: 100px;
+}
+
+img {
+    margin-right: 10%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.text h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.interact{
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    border-radius: 12px;
+    color: white;
+    border: solid white 1px;
+    background-color:transparent;
+    margin: 20px 40px 0px 0px;
+    padding: 5px 20px 5px 20px;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.button:hover{
+    background-color:white; 
+    color: black;
+}
