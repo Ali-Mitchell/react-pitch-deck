@@ -1,10 +1,12 @@
 import React from 'react';
 import coverImage from "./hero-pic-02.svg";
-import './style.css';
+import Nav from "../Nav"
+import './hero.css';
 
 function Hero() {
   return (
     <section id="hero">
+      <Nav></Nav>
       <article>
         <img alt="" src={coverImage} style={{ height: "400px" }}></img>
         <div className="text col-8">
