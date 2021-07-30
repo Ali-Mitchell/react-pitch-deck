@@ -6,12 +6,12 @@ function Nav() {
 
     return (
         <header className="header">
-            <a className="col-6" href="">
+            <a className="col-4" href="">
                 <img alt="" src={logo} style={{height:"30px"}}></img>
             </a>
     
             <nav>
-                <ul className="col-6">
+                <ul className="col-8">
                 <li className="mx-2">
                         <a href="#about">
                             ABOUT

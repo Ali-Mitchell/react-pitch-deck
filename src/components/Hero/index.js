@@ -1,7 +1,7 @@
 import React from 'react';
 import coverImage from "./hero-pic-02.svg";
 import Nav from "../Nav"
-import background from "./neon-wall.jpg";
+import background from "./neonblur1.jpg";
 import './hero.css';
 
 function Hero() {
