@@ -1,11 +1,12 @@
 import React from 'react';
 import coverImage from "./hero-pic-02.svg";
 import Nav from "../Nav"
+import background from "./neon-wall.jpg";
 import './hero.css';
 
 function Hero() {
   return (
-    <section id="hero">
+    <section style={{ backgroundImage: `url(${background})`}}>
       <Nav></Nav>
       <article>
         <img alt="" src={coverImage} style={{ height: "400px" }}></img>
