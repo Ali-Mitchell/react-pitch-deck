@@ -7,29 +7,24 @@ function Nav() {
     return (
         <header className="header">
             <a className="col-4" href="">
-                <img alt="" src={logo} style={{height:"30px"}}></img>
+                <img alt="" src={logo}></img>
             </a>
     
             <nav>
                 <ul className="col-8">
                 <li className="mx-2">
-                        <a href="#about">
-                            ABOUT
+                        <a href="#features">
+                            FEATURES
                         </a>
                     </li>
                     <li className="mx-3">
-                        <a href="#about">
+                        <a href="#features">
                             INVEST
                         </a>
                     </li>
                     <li className="mx-3">
                         <a href="#contact">
                             CONTACT
-                        </a>
-                    </li>
-                    <li className="mx-3">
-                        <a href="#proforma">
-                            PROFORMA
                         </a>
                     </li>
                 </ul>

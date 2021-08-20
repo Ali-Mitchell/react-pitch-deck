@@ -1,5 +1,5 @@
 
-section {
+.hero {
     background-size: cover;
     height: 100%;
     display: flex;
@@ -9,7 +9,7 @@ section {
     flex-wrap: wrap;
 }
 
-article {
+.hero article {
     display: flex;
     flex-direction: row;
     align-self: center;
@@ -17,29 +17,33 @@ article {
     Margin: 100px;
 }
 
-img {
+.hero .hero img {
     margin-right: 10%;
 }
 
-.text {
+.hero .text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     letter-spacing: 2px;
 }
 
-.text h1 {
+.hero .text h1 {
     font-weight: 900;
     text-transform: uppercase;
     
 }
 
-.interact{
+.hero .text h2 {
+    text-transform: uppercase;
+}
+
+.hero .interact{
     display: flex;
     flex-direction: row;
 }
 
-.button {
+.hero .button {
     border-radius: 12px;
     color: white;
     border: solid white 1px;
@@ -49,7 +53,7 @@ img {
     letter-spacing: 1px;
     font-size: 12px;
 }
-.button:hover{
+.hero .button:hover{
     background-color:white; 
     color: black;
 }
