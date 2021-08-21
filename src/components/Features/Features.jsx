@@ -1,7 +1,7 @@
 import React from 'react';
 // import React, { useState } from "react";
 import "./Features.css";
-import Nav from '../Nav';
+// import Nav from '../Nav/Nav';
 import explore from './explore.png';
 import create from './create.png'
 // import logo from './theUnderground-09.svg';
@@ -10,7 +10,6 @@ function Features() {
 
     return (
         <section className="feat">
-            <Nav></Nav>
                     <article className="mock-up col-5">
                         <img alt="" src={explore}></img>
                     </article>

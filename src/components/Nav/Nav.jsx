@@ -1,21 +1,22 @@
 import React from 'react';
 import "./nav.css";
 import logo from './theUnderground-09.svg';
+import { Link } from 'react-router-dom';
 
 function Nav() {
 
     return (
         <header className="header">
-            <a className="col-4" href="">
+            <Link  to="/" className="col-4" href="">
                 <img alt="" src={logo}></img>
-            </a>
+            </Link>
     
             <nav>
                 <ul className="col-8">
                 <li className="mx-2">
-                        <a href="#features">
+                        <Link  to="/Features">
                             FEATURES
-                        </a>
+                        </Link>
                     </li>
                     <li className="mx-3">
                         <a href="#features">

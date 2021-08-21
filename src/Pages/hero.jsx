@@ -1,13 +1,12 @@
 import React from 'react';
-import coverImage from "./hero-pic-02.svg";
-import Nav from "../Nav";
-import background from "./neonblur1.jpg";
-import './hero.css';
+import coverImage from "../components/Hero/hero-pic-02.svg";
+import background from "../components/Hero/neonblur1.jpg";
+import "../components/Hero/hero.css";
 
 function Hero() {
   return (
     <section className="hero" style={{ backgroundImage: `url(${background})`}}>
-      <Nav></Nav>
+      {/* <Nav></Nav> */}
       <article>
         <img alt="" src={coverImage} style={{ height: "400px" }}></img>
         <div className="text col-8">
@@ -19,8 +18,6 @@ function Hero() {
           </div>
         </div>
       </article>
-
-
     </section>
   );
 }
