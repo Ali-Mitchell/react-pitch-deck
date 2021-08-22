@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./Features.css";
 // import Nav from '../Nav/Nav';
 // import image from './explore.png';
-import Explore from '../Explore/Explore'
+// import Explore from '../Explore/Explore'
 // import create from './create.png'
 // import logo from './theUnderground-09.svg';
 
@@ -61,9 +61,11 @@ console.log(currentFeature)
                         <div className="col-7">
                             <div className="row">
 
-                                <button onClick={Explore} className="col-4">EXPLORE</button>
-                                <button onClick={Create} className="col-4">CREATE</button>
-                                <button onClick={Dashboard} className="col-4">DASHBOARD</button>
+                                <button onClick={Explore} className="col-3">EXPLORE</button>
+                                
+                                <button onClick={Create} className="col-3">CREATE</button>
+                                
+                                <button onClick={Dashboard} className="col-3">DASHBOARD</button>
                             </div>
                             <p>{features[currentFeature.item].text}</p>
                         </div>

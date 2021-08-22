@@ -24,7 +24,7 @@
 
 .feat .mock-up img {
     height:400px;
-    margin: 75px 0px 75px 0px;
+    margin: 100px;
 }
 
 .textbox p {
@@ -35,30 +35,42 @@
     line-height: 20px;
 }
 
-.textbox .col-7 {
-    padding: 0px;
-    margin:0px;
-}
-
-.textbox .col-4 {
-    padding: 0px;
-    margin:0px;
+.textbox .row {
+    
 }
 
 .textbox .row {
     width:100%;
+    margin:0px;
     height:25px;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
     /* margin-left: 1px; */
 }
 .textbox button {
-    border: none;
-    font-size: 12px;
+    border: rgb(172, 172, 172) solid 2px;
+    color: rgb(73, 73, 73);
+    border-radius: 12px;
+    font-size: 10px;
+    padding:5px 20px 5px 20px;
+    margin: 0px;
     background-color: white;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .textbox button:hover {
 
-        font-size: 13px;
+    background-color: rgb(172, 172, 172);
+
+}
+
+.textbox .col-7 {
+    padding: 0px;
+    /* margin:0px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
 }
