@@ -10,7 +10,7 @@ import Explore from '../Explore/Explore'
 function Features() {
 
     return (
-        <Explore/>
+        
          );
 }
 
