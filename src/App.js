@@ -4,29 +4,16 @@ import Hero from './Pages/hero.jsx';
 import Nav from './components/Nav/Nav.jsx'
 import Features from './components/Features/Features.jsx'
 import Footer from './components/Footer/Footer.jsx';
+import Create from './components/Create/Create.jsx';
+import Explore from './components/Explore/Explore';
+import Dashboard from './components/Dashboard/Dashboard';
+
 // import Nav from './components/Nav';
 
 
 // import './App.css';
 
 function App() {
-
-  const [Features] = useState([
-
-
-    {
-      name: "EXPLORE"
-    },
-    {
-      name:"CREATE"
-    },
-    {
-      name:"DASHBOARD"
-    },
-
-  ])
-
-  const [currentFeature, setCurrentFeature] = useState(Features[0]);
 
 
   return (
@@ -36,11 +23,11 @@ function App() {
           <Nav></Nav>
           <Switch>
             <Route exact path='/' component={Hero} />
-            <Route exact path='/features' component={Features} currentFeature={currentFeatures}>
-              {/* Features={Features}
-            setCurrentFeature={setCurrentFeature}
-            currentFeature={currentFeature} */}
-            </Route>
+            <Route exact path='/features' component={Features}/>
+            <Route exact path='/create' component={Create}/>
+            <Route exact path='/explore' component={Explore}/>
+            <Route exact path='/dashboard' component={Dashboard}/>
+  
 
           </Switch>
           <Footer></Footer>
