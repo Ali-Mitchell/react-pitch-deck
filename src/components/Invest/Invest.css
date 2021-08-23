@@ -1,6 +1,6 @@
 .vest {
-    height: 1400px;
-    padding:100px;
+    height: inherit;
+    padding:100px 200px 100px 100px;
 }
 
 .vest .header {
@@ -37,4 +37,56 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+/* body ------------------ */
+
+.vest .body {
+    height: 400px;
+    margin-top:30px;
+    flex-wrap: nowrap;
+}
+
+.vest .grey {
+    background: rgb(231, 231, 231);
+    border: rgb(83, 83, 83) solid 1px;
+    border-radius: 12px;
+}
+
+.vest .body .col-3 {
+    margin:6px;
+}
+
+.vest .body .image {
+    height:75px;
+    align-items: center;
+}
+.vest .body img {
+    height:40px;
+}
+
+.vest .body .title {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.vest .links {
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+.vest button {
+    border-radius: 12px;
+    border: black solid 2px;
+    background-color: white;
+    padding:5px 20px 5px 20px;
+    margin: 40px 0px 0px 175px;
+    font-weight: bold;
+}
+
+.vest button:hover {  
+    border: rgb(231, 231, 231) solid 2px;
+    background-color: rgb(231, 231, 231);
+ 
 }
