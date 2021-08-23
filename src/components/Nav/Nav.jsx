@@ -1,12 +1,13 @@
 import React from 'react';
 import "./nav.css";
 import logo from './theUnderground-09.svg';
+import headerblur from './headerblur.jpg'
 import { Link } from 'react-router-dom';
 
 function Nav() {
 
     return (
-        <header className="header">
+          <header className="header" style={{ backgroundImage: `url(${headerblur})` }}>
             <Link  to="/" className="col-4" href="">
                 <img alt="" src={logo}></img>
             </Link>
@@ -19,9 +20,9 @@ function Nav() {
                         </Link>
                     </li>
                     <li className="mx-3">
-                        <a href="#features">
+                         <Link  to="/Invest">
                             INVEST
-                        </a>
+                        </Link>
                     </li>
                     <li className="mx-3">
                         <a href="#contact">

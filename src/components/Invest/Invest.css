@@ -1,0 +1,40 @@
+.vest {
+    height: 1400px;
+    padding:100px;
+}
+
+.vest .header {
+    height: 300px;
+
+}
+
+.vest .header img {
+    height:100px;
+}
+
+.vest h1 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.vest h2 {
+    font-size:16px;
+}
+
+.vest .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vest .header p {
+    font-size:14px;
+}
+
+.vest .text {
+    height:200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
