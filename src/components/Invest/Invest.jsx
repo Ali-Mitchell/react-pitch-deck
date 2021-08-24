@@ -26,13 +26,13 @@ function Invest() {
                         </div>
 
                         <div className="col-3">
-                            <h2>Year started</h2>
-                            <h1>2021</h1>
+                            <h2>Employees</h2>
+                            <h1>4</h1>
                         </div>
 
                         <div className="col-3">
-                            <h2>Year started</h2>
-                            <h1>2021</h1>
+                            <h2>Availability</h2>
+                            <h1>IOS/ Android</h1>
                         </div>
                     </div>
 
