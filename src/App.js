@@ -5,6 +5,7 @@ import Nav from './components/Nav/Nav.jsx'
 import Features from './components/Features/Features.jsx'
 import Footer from './components/Footer/Footer.jsx';
 import Invest from './components/Invest/Invest';
+import Contact from './components/Contact/Contact';
 // import Create from './components/Create/Create.jsx';
 // import Explore from './components/Explore/Explore';
 // import Dashboard from './components/Dashboard/Dashboard';
@@ -29,6 +30,7 @@ function App() {
             <Route exact path='/explore' component={Explore}/>
             <Route exact path='/dashboard' component={Dashboard}/> */}
             <Route exact path='/invest' component={Invest}/>
+            <Route exact path='/contact' component={Contact}/>
 
           </Switch>
           <Footer/>

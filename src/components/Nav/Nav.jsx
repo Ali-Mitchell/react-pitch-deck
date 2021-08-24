@@ -25,9 +25,9 @@ function Nav() {
                         </Link>
                     </li>
                     <li className="mx-3">
-                        <a href="#contact">
+                        <Link to="/Contact">
                             CONTACT
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>
