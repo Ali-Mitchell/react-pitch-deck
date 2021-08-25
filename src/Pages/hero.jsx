@@ -2,10 +2,11 @@ import React from 'react';
 // import coverImage from "../components/Hero/hero-pic-02.svg";
 import background from "../components/Hero/neonblur1.jpg";
 import "../components/Hero/hero.css";
-// import Team from "../components/Team/Team";
+import Team from "../components/Team/Team";
 
 function Hero() {
   return (
+    <div>
     <section className="hero" style={{ backgroundImage: `url(${background})` }}>
       {/* <Nav></Nav> */}
       <article className="col-5">
@@ -22,6 +23,8 @@ function Hero() {
           </div>
       </article>
     </section>
+    <Team></Team>
+    </div>
     
 
   );

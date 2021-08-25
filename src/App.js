@@ -6,7 +6,7 @@ import Features from './components/Features/Features.jsx'
 import Footer from './components/Footer/Footer.jsx';
 import Invest from './components/Invest/Invest';
 import Contact from './components/Contact/Contact';
-import Team from './components/Team/Team';
+// import Team from './components/Team/Team';
 // import Create from './components/Create/Create.jsx';
 // import Explore from './components/Explore/Explore';
 // import Dashboard from './components/Dashboard/Dashboard';
@@ -34,7 +34,7 @@ function App() {
             <Route exact path='/contact' component={Contact}/>
 
           </Switch>
-          <Team></Team>
+          {/* <Team></Team> */}
           <Footer/>
         </Router>
       </main>
