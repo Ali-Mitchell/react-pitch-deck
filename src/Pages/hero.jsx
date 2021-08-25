@@ -15,8 +15,9 @@ function Hero() {
           <h1>Host your show</h1>
           <h2>explore our map of listings</h2>
           <div className="interact">
-            <button className="button">Survey</button>
-            <button className="button">Start Using</button>
+            <a href="https://www.surveymonkey.com/"className="button">Survey</a>
+        
+            <a href="https://floating-lake-70395.herokuapp.com/"className="button">Start Using</a>
           </div>
       </article>
 

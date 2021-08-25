@@ -12,7 +12,7 @@ const features =
 [
     {
         img: 'https://user-images.githubusercontent.com/79877350/130186959-1db6157f-0f87-445f-9dcd-957d0f815ce5.png',
-        text: 'Text 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illo possimus cumque officia. Ipsum dolor, voluptas doloribus iste corrupti laboriosam! Cupiditate neque molestias iste et totam nisi facilis vero quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illo possimus cumque officia. Ipsum dolor, voluptas doloribus iste corrupti laboriosam! Cupiditate neque molestias iste et totam nisi facilis vero quisquam!',
+        text: 'Our explore page features a Pokemon-Go-Style Interactive Map that pulls from a users location to display all the posted upcoming shows in their immediate area. This map dynamically updates when shows are posted and is a nationwide map.',
     },
     {
         img: 'https://user-images.githubusercontent.com/79877350/130186848-8dff402a-b2b7-42f6-b90d-bd1eb5a966de.png',
