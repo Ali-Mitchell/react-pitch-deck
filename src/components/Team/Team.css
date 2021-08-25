@@ -1,0 +1,32 @@
+.team {
+    height: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.container {
+    width:80%;
+    flex-wrap: nowrap;
+    /* flex-direction: row; */
+}
+
+.team img {
+    border-radius: 50%;
+    height:150px;
+    width:150px;
+    object-fit:cover;
+}
+
+.team-card {
+    height: 250px;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: center;
+}
+
+.team-card .col-3 {
+    justify-content: center;
+}

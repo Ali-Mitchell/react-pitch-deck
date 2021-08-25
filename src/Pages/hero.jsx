@@ -2,6 +2,7 @@ import React from 'react';
 // import coverImage from "../components/Hero/hero-pic-02.svg";
 import background from "../components/Hero/neonblur1.jpg";
 import "../components/Hero/hero.css";
+// import Team from "../components/Team/Team";
 
 function Hero() {
   return (
@@ -20,8 +21,9 @@ function Hero() {
             <a href="https://floating-lake-70395.herokuapp.com/"className="button">Start Using</a>
           </div>
       </article>
-
     </section>
+    
+
   );
 }
 
