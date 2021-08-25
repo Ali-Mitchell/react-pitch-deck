@@ -9,7 +9,7 @@ function Hero() {
     <div>
     <section className="hero" style={{ backgroundImage: `url(${background})` }}>
       {/* <Nav></Nav> */}
-      <article className="col-5">
+      <article className="mock-up col-5">
         <img alt="" src='https://user-images.githubusercontent.com/79877350/130186959-1db6157f-0f87-445f-9dcd-957d0f815ce5.png' style={{ height: "400px" }}></img>
       </article>
 

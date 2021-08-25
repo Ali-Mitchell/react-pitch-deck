@@ -9,12 +9,9 @@
     flex-wrap: wrap;
 }
 
-.hero article {
-    /* display: flex;
-    flex-direction: row;
-    align-self: center;
-    width :80%; */
-    /* Margin: 100px; */
+.hero .mock-up {
+    display: flex;
+    justify-content: center;
 }
 
 .hero img {
