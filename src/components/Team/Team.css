@@ -13,8 +13,8 @@
 
 .team img {
     border-radius: 50%;
-    height:150px;
-    width:150px;
+    height:100px;
+    width:100px;
     object-fit:cover;
 }
 
@@ -23,10 +23,12 @@
     margin:0px;
     display: flex;
     flex-direction: column;
-    flex-wrap:nowrap;
+    align-items: center;
     justify-content: center;
 }
-
+/* 
 .team-card .col-3 {
-    justify-content: center;
-}
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+} */

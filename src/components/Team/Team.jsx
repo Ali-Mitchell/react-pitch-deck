@@ -6,7 +6,7 @@ function Team() {
 
     return (
        <article className="team">
-           <h1>Meet our team</h1>
+           <h1>Meet our Team</h1>
            <div className="container row">
         
                 <div className="team-card col-3">
