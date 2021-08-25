@@ -1,0 +1,32 @@
+.contact {
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin:100px;
+}
+
+.contact input {
+    border-radius: 12px;
+    padding:10px;
+    border:black solid 1px;
+}
+
+.contact textarea {
+    border-radius: 12px;
+    width: 100%;
+    padding:10px;
+}
+
+.contact button {
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+    border:black solid 2px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.contact button:hover {
+    background-color: lightgray;
+}
