@@ -7,6 +7,11 @@ import { Link } from 'react-router-dom';
 function Nav() {
 
     return (
+
+
+
+
+        // Desktop View 
           <header className="header" style={{ backgroundImage: `url(${headerblur})` }}>
             <Link  to="/" className="col-4" href="">
                 <img alt="" src={logo}></img>
