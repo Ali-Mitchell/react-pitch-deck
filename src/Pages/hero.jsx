@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import coverImage from "../components/Hero/hero-pic-02.svg";
 import background from "../components/Hero/neonblur1.jpg";
 import "../components/Hero/hero.css";
 import Team from "../components/Team/Team";
 
 function Hero() {
+  const [count, setCount] = useState(0);
+  console.log(count);
+
+
   return (
     <div>
     <section className="hero" style={{ backgroundImage: `url(${background})` }}>
@@ -19,7 +23,7 @@ function Hero() {
           <div className="interact">
             <a href="https://www.surveymonkey.com/"className="button">Survey</a>
         
-            <a href="https://floating-lake-70395.herokuapp.com/"className="button">Start Using</a>
+            <button className="button"  onClick={() => setCount(count + 1)}>Start Using</button>
           </div>
       </article>
     </section>
